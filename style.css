@@ -3,18 +3,26 @@
 }
 body{
     background-color: whitesmoke;
+    background: linear-gradient(140deg, skyblue, rgb(219, 126, 183));
+    height: 100vh;
 }
 .heading{
     padding: 2rem;
     text-align: center;
     font-weight: bolder;
     font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }
 .heading2{
     padding: 0.5rem;
     text-align: center;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
 }
 .Etask{
     position: relative;
@@ -27,6 +35,7 @@ input[type=text]{
 }
 input{
     margin: 1rem 1rem;
+    border-radius: 5px;
 }
 .tasks{
     position: relative;
@@ -35,7 +44,18 @@ input{
 }
 ul li{
     list-style: none;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+
 }
 .btn1{
     padding: 0.5rem 0.5rem;
+    background-color: none;
+    border-radius: 5px;
+}
+.btn1:hover{
+    box-shadow: 0px 0px 7px 0px black;
+    transform: scale(1.05);
 }
