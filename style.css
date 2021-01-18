@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.heading{
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.heading2{
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.Etask{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+input[type=text]{
+    padding: 0.5rem 0.5rem;
+    border: 2px solid black;
+}
+input{
+    margin: 1rem 1rem;
+}
+.tasks{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+.btn1{
+    padding: 0.5rem 0.5rem;
+}
